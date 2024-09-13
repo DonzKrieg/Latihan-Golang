@@ -1,3 +1,27 @@
+// program Belanja
+// kamus
+//     belanja, diskon : real
+//     member : bool
+// algoritma
+//     input(belanja, member)
+//     diskon <- total(belanja, member)
+//     output(diskon)
+// endprogram
+
+// function total(x : real, y : boolean) -> real
+// kamus
+// 		hasil : real
+// algoritma
+// 		if x > 100000 and y == true then
+//			hasil <- x - (x * 0.1)
+//		else if x > 100000 and y == false then
+//			hasil <- x - (x * 0.05)
+//		else then
+//			hasil <- x
+//		endif
+//		return hasil
+// endfunction
+
 package main
 
 import "fmt"
